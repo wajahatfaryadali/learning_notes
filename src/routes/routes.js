@@ -9,31 +9,36 @@ export const routes = [
         title: "Home",
         path: "/",
         component: <Home />,
-        navOrder: 1
+        navOrder: 1,
+        visible: true
     },
     {
         title: "Javascript",
         path: "/javascript",
         component: <Javascript />,
-        navOrder: 2
+        navOrder: 2,
+        visible: true
     },
     {
         title: "React JS",
         path: "/react-js",
         component: <ReactJs />,
-        navOrder: 3
+        navOrder: 3,
+        visible: true
     },
     {
         title: "Database",
         path: "/database",
         component: <Database />,
-        navOrder: 4
+        navOrder: 4,
+        visible: true
     },
     {
         title: "Node Js",
         path: "/node-js",
         component: <Node />,
-        navOrder: 5
+        navOrder: 5,
+        visible: true
     },
 
 ]

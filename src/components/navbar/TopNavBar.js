@@ -32,6 +32,7 @@ export default function TopNavBar({ routes }) {
 
                     <Box display={{ xs: "none", md: "block" }}>
                         {routes?.map((e, i) =>
+                            e.visible &&
                             <Link to={e.path} key={i}>
                                 <Button style={{ color: "#fff" }} size='large'>
                                     {e.title}
